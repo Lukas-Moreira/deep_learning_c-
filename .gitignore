@@ -1,0 +1,6 @@
+# Ignore a pasta do Visual Studio
+.vscode/
+
+# Ignore pastas de build dos exercícios e capítulos
+*/build/
+*/*/build/
