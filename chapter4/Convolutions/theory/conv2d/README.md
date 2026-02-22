@@ -6,6 +6,11 @@ Implementação de **convolução 2D** em C++ com `Eigen`, com três abordagens:
 - `conv2D_Padded`: aplica padding explícito com cópia para matriz expandida.
 - `conv2D_Optimizer`: versão otimizada por ROI (*Region of Interest*), evitando alocar a matriz com padding completo.
 
+## Visualização
+
+![Convolution 2D Diagram](./conv2d_diagram.svg)
+
+
 ## Estrutura
 
 - `conv2D.hpp`: implementação das funções/lambdas de convolução.
