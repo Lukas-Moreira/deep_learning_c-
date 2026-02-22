@@ -4,3 +4,12 @@
 # Ignore pastas de build dos exercícios e capítulos
 */build/
 */*/build/
+*/*/*/build/
+*/*/*/*/build/
+*/*/*/*/*/build/
+
+*/build-release/
+*/*/build-release/
+*/*/*/build-release/
+*/*/*/*/build-release/
+*/*/*/*/*/build-release/
