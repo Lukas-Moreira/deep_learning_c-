@@ -8,7 +8,7 @@ Implementação de **convolução 2D** em C++ com `Eigen`, com três abordagens:
 
 ## Visualização
 
-![Convolution 2D Diagram](./conv2d_diagram.svg)
+![Convolution 2D Diagram](./conv.svg)
 
 
 ## Estrutura
