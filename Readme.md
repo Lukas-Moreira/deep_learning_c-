@@ -66,7 +66,7 @@ O objetivo **não é criar um framework**, mas sim **aprender profundamente** co
 
 ```text
 
-📁 chapter3                      # Testing Deep Learning Code
+📁 chapter3                     # Testing Deep Learning Code
 ├── 📁 headers/
 │   ├── ⚡myfunctions.hpp        # Funções auxiliares usadas nos experimentos do capítulo
 │   └── ⚡chi_squared_test.hpp   # Teste de hipótese (Qui-Quadrado)
@@ -75,19 +75,28 @@ O objetivo **não é criar um framework**, mas sim **aprender profundamente** co
 │   └── ⚡chi_squared_test.cpp   # Teste estatístico ligado à natureza estocástica dos modelos
 ├── tests/
 │   └── ⚡test_sorting.cpp       # Exemplo de testes com GoogleTest
-└── 📁 exercises/                # Exercícios do capítulo
-    └── 📁 benchmark
-         │    └── ⚡ middle.cpp
-         ├── 📁 headers
-         │    ├── ⚡ activation_functions.hpp
-         │    └── ⚡ utils.hpp
-         ├── 📁 src
-         │    ├── ⚡ activation_funtions.cpp
-         │    └── ⚡ utils.cpp
-         └── 📁 tests
-              ├── ⚡ act_func.cpp
-              └── ⚡ middle.cpp
-
+├── 📁 exercises/                # Exercícios do capítulo
+│   └── 📁 benchmark
+│        │    └── ⚡ middle.cpp
+│        ├── 📁 headers
+│        │    ├── ⚡ activation_functions.hpp
+│        │    └── ⚡ utils.hpp
+│        ├── 📁 src
+│        │    ├── ⚡ activation_funtions.cpp
+│        │    └── ⚡ utils.cpp
+│        └── 📁 tests
+│             ├── ⚡ act_func.cpp
+│             └── ⚡ middle.cpp
+│
+📁 chapter4                     # Convolutions
+├── 📁 Convolutions/
+     └── 📁 theory
+         └── 📁 conv2d
+              ├── 📁 benchmarks
+              │   └── ⚡ convolutions.cpp    # Benchmarks de testes de implementação
+              ├── conv2D.cpp                # Exemplo de utilização
+              ├── conv2D.hpp                # Construtores das funções
+              └── CMakeLists.txt            # Compiler
 ```
 
 ## Tecnologias Utilizadas
